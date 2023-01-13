@@ -1,0 +1,92 @@
+
+
+.container{
+    width: 75%;
+    margin:0 auto;
+  }
+  
+
+.courses_content{
+    display: grid;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15%;
+
+}
+
+
+.courses_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+ }
+
+
+ .courses_card{
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgba(77, 181, 255, 0.4);
+    background-color: rgba(240, 234, 237, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+
+ .courses_card h4, h5, h6{
+    
+    padding: 5px;
+ 
+ }
+
+ .courses_icon{
+    color:  #fff;
+    font-size: 1.2rem;    
+    margin: 1rem;
+ }
+
+
+.courses_card h5{
+    font-size: 0.95rem;
+}
+
+.cta{
+    padding: 1rem;
+}
+
+
+
+
+/****************************Media queries (medium devices)*******************/
+
+@media screen and (max-width: 1024px) {
+   
+.courses_content{
+    width: 90%;
+}
+.courses_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+ }
+ 
+}
+  
+    
+
+/****************************Small queries (medium devices)*******************/
+
+@media screen and (max-width: 600px) {
+
+
+    .courses_cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+     }
+    
+
+}

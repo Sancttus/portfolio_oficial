@@ -1,0 +1,166 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+/******************************************** estilo geral **************************************************/
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+section{
+  margin-top: 8rem;
+ 
+}
+
+section > h2, section > h5{
+  text-align: center;
+  color:  rgba(255, 255, 255, 0.6);
+}
+
+section > h2{
+  color:  rgba(77, 181, 255, 0.4);
+  margin-bottom: 3rem;
+}
+
+.text-light{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+a{
+  color:rgba(77, 181, 255, 0.4);
+  transition: all 400ms ease;
+}
+
+a:hover{
+  color: #fff;
+}
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: rgba(77, 181, 255, 0.4);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid rgba(77, 181, 255, 0.4);
+  transition:  all 400ms ease;
+}
+
+.btn:hover{
+  background: var(--color-white);
+  color: #1f1f38;
+  border-color: transparent;
+}
+
+.btn-primary{
+  background:rgba(77, 181, 255, 0.4);
+  color:#1f1f38;
+}
+
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/************ Default Css ************/
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+  
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+  background-image: url(../public//background2.gif);
+  background-repeat: repeat;
+  background-size: 100%;
+ 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+p.success {
+	color: green;
+}
+
+p.danger {
+	color: red;
+}
+

@@ -1,0 +1,65 @@
+
+
+.container{
+    width: 75%;
+    margin:0 auto;
+  }
+  
+
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+
+}
+
+.header_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    
+}
+
+.header_container h1{
+   
+    color:  rgba(77, 181, 255, 0.4);
+    
+}
+
+/*************************************CTA****************************************/
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+
+/****************************Media queries (medium devices)*******************/
+
+@media screen and (max-width: 1024px) {
+header{
+    height: 68vh;
+}
+
+
+}
+
+/****************************Small queries (medium devices)*******************/
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll_down{
+        display: none;
+    }
+}
