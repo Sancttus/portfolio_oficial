@@ -3,7 +3,7 @@ import React from "react";
 //css
 import './about.css';
 //image
-import Me from '../../assets/img/Me.png'
+import Me from '../../assets/img/Me.jpeg'
 
 
 

@@ -2,12 +2,12 @@ import React from "react";
 import './portfolio.css';
 
 //import imagens
-import IMG1 from '../../assets/img/jogodavelha.png'
-import IMG2 from '../../assets/img/JogomataMosquito.png'
-import IMG3 from '../../assets/img/telaperguntas.png'
-import IMG4 from '../../assets/img/portaselecionada.png'
-import IMG5 from '../../assets/img/calculadora.png'
-import IMG6 from '../../assets/img/spotify.png'
+import IMG1 from '../../assets/img/jogodavelha.jpeg'
+import IMG2 from '../../assets/img/JogomataMosquito.jpeg'
+import IMG3 from '../../assets/img/telaperguntas.jpeg'
+import IMG4 from '../../assets/img/portaselecionada.jpeg'
+import IMG5 from '../../assets/img/calculadora.jpeg'
+import IMG6 from '../../assets/img/spotify.jpeg'
 
 
 

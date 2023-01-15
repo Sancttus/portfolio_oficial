@@ -29,28 +29,32 @@
     border:1px solid rgba(77, 181, 255, 0.4);
     background-color: rgba(240, 234, 237, 0.1);
     border-radius: 1rem;
-    padding: 1rem;    
-    text-align: center;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly; 
+    text-align: center;
+    
+    padding: 0.6rem;
+    
  
  }
 
- .courses_card h4, h5, h6{
-    
-    padding: 5px;
- 
+ .courses_titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;   
+    gap: 1rem;
  }
 
  .courses_icon{
     color:  #fff;
     font-size: 1.2rem;    
-    margin: 1rem;
+    margin: 0.5rem;
  }
 
 
 .courses_card h5{
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 .cta{

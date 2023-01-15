@@ -16,8 +16,9 @@
 .contact_options{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 1.2rem;
+    justify-content: flex-start;
+    
+    gap: 5.5rem;
 }
 
 .contact_option{      
