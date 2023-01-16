@@ -15,7 +15,7 @@ function Skills() {
 
                 <Carousel>
                  
-                    <Carousel.Item interval={1200}>               
+                    <Carousel.Item interval={2000}>               
                         
                             
                            
@@ -66,7 +66,7 @@ function Skills() {
                     </Carousel.Item >
 
 
-                    <Carousel.Item interval={1200}>
+                    <Carousel.Item interval={2000}>
 
                         <div className="experience_container" >
                                  <div className='experience_title'>
@@ -90,7 +90,7 @@ function Skills() {
 
                     </Carousel.Item >
 
-                    <Carousel.Item interval={1200}>
+                    <Carousel.Item interval={2000}>
 
                         <div className="experience_container" >
                                 <div className='experience_title'>
@@ -120,7 +120,7 @@ function Skills() {
 
                     </Carousel.Item >
 
-                    <Carousel.Item interval={1200}>
+                    <Carousel.Item interval={2000}>
 
                         <div className="experience_container" >
                                 <div className='experience_title'>
