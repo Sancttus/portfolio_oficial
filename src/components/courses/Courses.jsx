@@ -5,11 +5,11 @@ import './courses.css'
 import { FaAward } from 'react-icons/fa'
 
 //certificados
-import certificadoWeb from '../../assets/img/Desenvovimento web 2021.pdf'
-import certificadoNext from '../../assets/img/Next e React.pdf'
-import Java from '../../assets/img/Java Completo.pdf'
-import BootcampSantander from '../../assets/img/Santander Bootcamp.pdf'
-import BootcampInter from '../../assets/img/Inter Bootcamp.pdf'
+import certificadoWeb from '../../assets/img/web.jpeg'
+import certificadoNext from '../../assets/img/Next.jpg'
+import Java from '../../assets/img/java.jpg'
+import BootcampSantander from '../../assets/img/SantanderBootcamp.jpeg'
+import BootcampInter from '../../assets/img/InterBootcamp.jpeg'
 
 const Courses = () => {
 

@@ -4,13 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from './components/navbar/NavBar';
 import Header from './components/header/Header';
 import About from './components/about/About'
-// import Experience from './components/experience/Experience'
 
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio';
 import Courses from './components/courses/Courses';
-import CarroselCourses from '../src/components/newComponent/CarroselCourses'
+import Skills from '../src/components/skills/Skills'
 
 import { useEffect } from 'react';
 
@@ -31,9 +30,8 @@ function App() {
       <NavBar />
       <Header />
       <About/>
-      <Courses/>
-      {/* <Experience/> */}
-      <CarroselCourses/>
+      <Skills/>
+      <Courses/>      
       <Portfolio/>
       <Contact/>
       <Footer/> 

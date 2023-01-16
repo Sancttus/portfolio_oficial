@@ -1,11 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-import './carroselCourses.css'
+import './skills.css'
 
 import { BsPatchCheckFill } from 'react-icons/bs'
 
 
-function IndividualIntervalsExample() {
+function Skills() {
     return (
         <section id='experience'>
 
@@ -15,7 +15,7 @@ function IndividualIntervalsExample() {
 
                 <Carousel>
                  
-                    <Carousel.Item interval={1000}>               
+                    <Carousel.Item interval={1200}>               
                         
                             
                            
@@ -66,7 +66,7 @@ function IndividualIntervalsExample() {
                     </Carousel.Item >
 
 
-                    <Carousel.Item interval={800}>
+                    <Carousel.Item interval={1200}>
 
                         <div className="experience_container" >
                                  <div className='experience_title'>
@@ -90,7 +90,7 @@ function IndividualIntervalsExample() {
 
                     </Carousel.Item >
 
-                    <Carousel.Item interval={800}>
+                    <Carousel.Item interval={1200}>
 
                         <div className="experience_container" >
                                 <div className='experience_title'>
@@ -120,7 +120,7 @@ function IndividualIntervalsExample() {
 
                     </Carousel.Item >
 
-                    <Carousel.Item interval={800}>
+                    <Carousel.Item interval={1200}>
 
                         <div className="experience_container" >
                                 <div className='experience_title'>
@@ -150,4 +150,4 @@ function IndividualIntervalsExample() {
     );
 }
 
-export default IndividualIntervalsExample;
+export default Skills;
