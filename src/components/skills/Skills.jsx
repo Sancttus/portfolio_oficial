@@ -66,31 +66,7 @@ function Skills() {
                     </Carousel.Item >
 
 
-                    <Carousel.Item interval={2000}>
-
-                        <div className="experience_container" >
-                                 <div className='experience_title'>
-                                    <h3>Backend Development</h3>
-                                </div>
-                            <div className="experience_content">
-                                <article className="experience_details">
-                                    <BsPatchCheckFill className="experience_details-icon" />
-                                    <h4>Php</h4>
-                                </article>
-
-                                <article className="experience_details">
-
-                                    <BsPatchCheckFill className="experience_details-icon" />
-                                    <h4>Java</h4>
-                                </article>
-
-
-                            </div>                          
-                        </div>
-
-                    </Carousel.Item >
-
-                    <Carousel.Item interval={2000}>
+                     <Carousel.Item interval={2000}>
 
                         <div className="experience_container" >
                                 <div className='experience_title'>

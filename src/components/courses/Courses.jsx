@@ -6,6 +6,7 @@ import { FaAward } from 'react-icons/fa'
 
 //certificados
 import certificadoWeb from '../../assets/img/web.jpeg'
+import cursoReact from '../../assets/img/curso_react.jpeg'
 import certificadoNext from '../../assets/img/Next.jpg'
 import Java from '../../assets/img/java.jpg'
 import BootcampSantander from '../../assets/img/SantanderBootcamp.jpeg'
@@ -47,7 +48,7 @@ const Courses = () => {
                             <h6>Horas: 30 horas</h6>
                         </div>
 
-                        <a href={certificadoWeb} download className='btn btn-primary'>Download Certificado</a>
+                        <a href={cursoReact} download className='btn btn-primary'>Download Certificado</a>
 
                     </article>
 
