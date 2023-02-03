@@ -107,11 +107,6 @@ function Skills() {
 
                                 <article className="experience_details">
                                     <BsPatchCheckFill className="experience_details-icon" />
-                                    <h4>MongoDB</h4>
-                                </article>
-
-                                <article className="experience_details">
-                                    <BsPatchCheckFill className="experience_details-icon" />
                                     <h4>mySQL</h4>
                                 </article>
                             </div>
