@@ -2,12 +2,12 @@ import React from "react";
 import './portfolio.css';
 
 //import imagens
-import IMG1 from '../../assets/img/jogodavelha.jpeg'
-import IMG2 from '../../assets/img/JogomataMosquito.jpeg'
-import IMG3 from '../../assets/img/telaperguntas.jpeg'
-import IMG4 from '../../assets/img/portaselecionada.jpeg'
-import IMG5 from '../../assets/img/calculadora.jpeg'
-import IMG6 from '../../assets/img/spotify.jpeg'
+import IMG1 from '../../assets/img/app_clima.jpg'
+import IMG2 from '../../assets/img/blog_film.jpg'
+import IMG3 from '../../assets/img/blog-perguntas_e_respostas.jpg'
+import IMG4 from '../../assets/img/chancedobahia.jpg'
+import IMG5 from '../../assets/img/lista ToDo.jpg'
+import IMG6 from '../../assets/img/mini_blog.jpg'
 
 
 
@@ -15,30 +15,30 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Jogo da Velha',
-        github: 'https://github.com/Sancttus/Jogo_da_velha',
-        demo: 'https://jogo-da-velha-lgvvdalu4-sancttus.vercel.app/'
+        title: 'App Clima',
+        github: 'https://github.com/Sancttus/Api_clima',
+        demo: 'https://api-clima-gamma.vercel.app/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Jogo Mata Mosquito',
-        github: 'https://github.com/Sancttus/Sancttus-Jogo-Mata-Mosquito',
-        demo: 'https://jogo-mata-mosquito-bice.vercel.app/'
+        title: 'Blog Filmes',
+        github: 'https://github.com/Sancttus/Movies',
+        demo: 'https://movies-gamma-teal.vercel.app/'
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Jogo Quiz',
-        github: 'https://github.com/Sancttus/Portas',
+        title: 'Blog Perguntas/Respostas',
+        github: 'https://github.com/Sancttus/Mini-blog_node',
         demo: 'https://vercel.com/dashboard'
     },
     {
         id: 4,
         image: IMG4,
-        title: 'Jogo Monty Hall',
-        github: 'https://github.com/Sancttus/jogo-quiz',
-        demo: 'https://vercel.com/dashboard'
+        title: 'Chances do Bahia',
+        github: 'https://github.com/Sancttus/ChanceDoBahia',
+        demo: 'https://chance-do-bahia.vercel.app/'
     },
     {
         id: 5,
@@ -50,9 +50,9 @@ const data = [
     {
         id: 6,
         image: IMG6,
-        title: 'Clone Spotify',
-        github: 'https://github.com/Sancttus/Spotfy',
-        demo: 'https://vercel.com/dashboard'
+        title: 'Mini Blog',
+        github: 'https://github.com/Sancttus/MiniBlog',
+        demo: 'https://mini-blog-smoky-iota.vercel.app/'
     },
 
 ]
