@@ -6,7 +6,7 @@ import IMG1 from '../../assets/img/app_clima.jpg'
 import IMG2 from '../../assets/img/blog_filmes.jpg'
 import IMG3 from '../../assets/img/blog-perguntas_e_respostas.jpg'
 import IMG4 from '../../assets/img/chancedobahia.jpg'
-import IMG5 from '../../assets/img/lista ToDo.jpg'
+import IMG5 from '../../assets/img/lista_ToDo.jpg'
 import IMG6 from '../../assets/img/mini_blog.jpg'
 
 
@@ -43,9 +43,9 @@ const data = [
     {
         id: 5,
         image: IMG5,
-        title: 'Calculadora',
-        github: 'https://github.com/Sancttus/Calculadora',
-        demo: 'https://vercel.com/dashboard'
+        title: 'List To DO',
+        github: 'https://github.com/Sancttus/List-To-Do',
+        demo: 'https://list-to-do-phi.vercel.app/'
     },
     {
         id: 6,
