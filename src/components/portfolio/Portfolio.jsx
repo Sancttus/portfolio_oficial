@@ -3,7 +3,7 @@ import './portfolio.css';
 
 //import imagens
 import IMG1 from '../../assets/img/app_clima.jpg'
-import IMG2 from '../../assets/img/blog_film.jpg'
+import IMG2 from '../../assets/img/blog_filmes.jpg'
 import IMG3 from '../../assets/img/blog-perguntas_e_respostas.jpg'
 import IMG4 from '../../assets/img/chancedobahia.jpg'
 import IMG5 from '../../assets/img/lista ToDo.jpg'
@@ -29,7 +29,7 @@ const data = [
     {
         id: 3,
         image: IMG3,
-        title: 'Blog Perguntas/Respostas',
+        title: 'Perguntas/Respostas',
         github: 'https://github.com/Sancttus/Mini-blog_node',
         demo: 'https://vercel.com/dashboard'
     },
